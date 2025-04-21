@@ -16,6 +16,9 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "paths": {
+      "~/*": [
+        "."
+      ],
       "@/*": [
         "./src/*"
       ]
